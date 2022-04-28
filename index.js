@@ -1,5 +1,5 @@
 const express = require('express')
-const app = express() //La constante app est l'instanciation d'un objet Express, qui va contenir notre serveur ainsi que les méthodes dont nous aurons besoin pour le faire fonctionner
+const app = express() 
 app.use(express.json())
 port = 5000
 
